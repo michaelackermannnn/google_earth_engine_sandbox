@@ -9,6 +9,7 @@ name = "pypi"
 
 google-api-python-client = "*"
 pycrypto = "*"
+earthengine-api = "*"
 
 
 [dev-packages]
