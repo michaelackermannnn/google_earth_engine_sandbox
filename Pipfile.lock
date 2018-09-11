@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "600b81060e1c1ab1cf6ebeb73d909333740db69e15c005ad488afb8e4125e443"
+            "sha256": "d98b8eb3138dc1190cdd2328c4c5d5551f2caea8e235545136f1bc088c3062a7"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -143,6 +143,13 @@
                 "sha256:684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16"
             ],
             "version": "==2.7"
+        },
+        "oauth2client": {
+            "hashes": [
+                "sha256:cf061f52f75e91d489bf5c276498f8af2655fe331b454f10022441513cf445a6",
+                "sha256:bd3062c06f8b10c6ef7a890b22c2740e5f87d61b6e1f4b1c90d069cdfc9dadb5"
+            ],
+            "version": "==4.1.2"
         },
         "pyasn1": {
             "hashes": [
