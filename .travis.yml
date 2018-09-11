@@ -1,0 +1,12 @@
+language: python
+python: 
+  - "3.6"
+
+install: 
+  - pip install pipenv
+  - pipenv install
+  - mkdir -p ~/.config/earthengine
+  - echo $OAUTH_TOKEN_GOOGLE_EARTH_ENGINE > ~/.config/earthengine/credentials
+
+script: 
+  - pipenv run python src/test.py
